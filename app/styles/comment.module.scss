@@ -1,0 +1,29 @@
+.comment {
+  &__list {
+    margin-top: 20px;
+  }
+
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  &__name {
+    font-style: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  &__description {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  &__email {
+    color: blue;
+  }
+}
+
+.back__arrow {
+  color: blue;
+  font-size: 20px;
+  margin: 20px 0;
+}

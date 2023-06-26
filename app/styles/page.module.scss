@@ -1,0 +1,36 @@
+.pages {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  &__item {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .2s linear;
+    &:hover {
+      background-color: rgb(214, 214, 214);
+    }
+  }
+  &__break {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 0;
+  }
+  &__active {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+  }
+  &__disable {
+    cursor: auto;
+    background-color: gray;
+    &:hover {
+      background-color: gray;
+      color: black;
+    }
+  }
+}
